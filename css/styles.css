@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+  position: relative;
+  background-color: powderblue;
+  top: 0;
+  left: 0;
+ overflow: scroll;
+ min-height: 100vh;
+ min-width: 100vw;
+}
+.container-fluid{
+  padding: 50px;
+}
+.header {
+  position: relative;
+  text-align: center;
+  background-color: powderblue;
+}
+.ny {
+  width: 300px;
+   }
+.vol{
+  position: absolute;
+  left:10px;
+  bottom:0;
+}
+.date{
+  border: 1px solid black;
+  text-align: center;
+  color: purple;
+}
+.video-container{
+  position: relative;
+  bottom: 10px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 250px;
+  background-color:  powderblue;
+}
+.inner {
+position: absolute;
+width: 460px;
+
+}
+.mayDay{
+  margin:0;
+  padding:0;
+}
+.aung {
+  height: 100px;
+  margin: 15px 10px 5px 0;
+  float: left;
+}
+
+
+#yellow, #green, #red, #pink, #purple,#blue {
+  background-color:  red;
+
+  border: none;
+
+}
+
+.video1,.video2,.video3,.video4,.video5,.video6 {
+  position: absolute;
+  top: -55px;
+  left: 0;
+  width: 400px;
+  height: 370px;
+
+}
+p{
+  width: 100%;
+}
+
+@media (max-width: 600px){
+  .video-container{
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 230px;
+    background-color:  powderblue;
+  }
+  .video1,.video2,.video3,.video4,.video5,.video6 {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 350px;
+    height: 250px;
+
+  }
+.smallScreen {
+  position: absolute;
+  background-color: powderblue;
+  right:20px;
+  top:250px;
+  line-height: 2;
+  color: red;
+  animation: blinker 2s linear infinite;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+}
