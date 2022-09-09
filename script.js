@@ -1,6 +1,6 @@
 
 let noOfbuttons = document.querySelectorAll(".inner").length;
-count = 0;
+count = 1;
 for(i=0; i< noOfbuttons; i++){
   document.querySelectorAll(".inner")[i].addEventListener("click", function(){
     count++;
