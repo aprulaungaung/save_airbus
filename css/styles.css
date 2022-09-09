@@ -81,16 +81,16 @@ p{
     position: relative;
     bottom: 10px;
     margin-bottom: 30px;
-    width: 300px;
-    height: 230px;
+    width: 280px;
+    height: 220px;
     background-color:  powderblue;
   }
   .video1,.video2,.video3,.video4,.video5,.video6 {
     position: absolute;
     top: -5px;
     left: 0;
-    width: 300px;
-    height: 230px;
+    width: 280px;
+    height: 220px;
 
   }
 .smallScreen {
