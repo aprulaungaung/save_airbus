@@ -101,6 +101,7 @@ p{
   line-height: 2;
   color: red;
   animation: blinker 2s linear infinite;
+  z-index: 1;
 }
 
 
