@@ -85,21 +85,21 @@ console.log("error");
 
   });
 }
-// window.onload = function(){
-// smallScreenF();
-// }
-// function smallScreenF(){
-//   let body = document.getElementsByTagName('body')[0];
-//   let length = body.clientWidth;
-//   if(length < 601){
-//     let newDiv = document.createElement("div");
-//     newDiv.innerHTML = "<em class ='smallScreen'>'Please help<br> us<br> by<br> clicking <br>the video!'</em>";
-//     document.querySelector(".fRow").appendChild(newDiv);
-//   }else{
-//     console.log("error");
-//   }
-//
-// }
+window.onload = function(){
+smallScreenF();
+}
+function smallScreenF(){
+  let body = document.getElementsByTagName('body')[0];
+  let length = body.clientWidth;
+  if(length < 601){
+    let newDiv = document.createElement("div");
+    newDiv.innerHTML = "<em class ='smallScreen'>'Please help<br> us<br> by<br> clicking <br>the video!'</em>";
+    document.querySelector(".fRow").appendChild(newDiv);
+  }else{
+    console.log("error");
+  }
+
+}
 
 let date = new Date();
 let options = {
